@@ -5,9 +5,9 @@ version = "1.0.0"
 edition = "2024"
 
 [profile.release]
-opt-level = "s"
 strip = true
 lto = true
+opt-level = "s"
 panic = "abort"
 codegen-units = 1
 
